@@ -94,7 +94,7 @@ nav:after {
 
 .text-banner {
     position: relative;
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 3em;
@@ -114,3 +114,95 @@ nav:after {
     font-weight: 300;
 }
 
+/* Seção sinopse */
+
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.title-center {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 3em;
+}
+
+#synopsis-container {
+    text-align: center;
+    padding: 100px;
+}
+
+.horizontal-line {
+    width: 1200px;
+    border: 1px solid #CCC;
+    margin-top: 150px;
+}
+
+
+.character-box {
+    display: inline-block;
+    width: 31%;
+    padding: 1%;
+    text-align: center;
+}
+
+.character-box p {
+    font-size: 0.9em;
+}
+
+.btncharacters-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-characters {
+    text-transform: uppercase;
+    background-color: #CCC;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.btn-characters:hover {
+    background-color: #FFF;
+    color: #CCC;
+}
+
+.some-seasons-left {
+    float: left;
+    width: 40%;
+}
+
+.season-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.season-tummary-right {
+    float: right;
+    width: 57%;   
+}
+
+.space-season {
+    padding-bottom: 20em;
+}
+
+.some-seasons-right {
+    float: right;
+    width: 40%;
+}
+
+.season-img {
+    width: 100%;
+}
+
+.season-tummary-left {
+    float: left;
+    width: 57%;   
+}
