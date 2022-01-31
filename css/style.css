@@ -85,7 +85,32 @@ nav:after {
 }
 
 #main-banner {
-    background: url(../img/bannerHome.jpg) no-repeat;
-    height: 100px;
-    background-position: 100%;
+    background: url(../img/banner.jpeg) no-repeat;
+    background-size: cover;
+    background-position: 0 90%;
+    position: relative;
+    margin-top: 85px;
 }
+
+.text-banner {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3em;
+    padding-bottom: 30em;
+    text-align: center;
+    color: #FFF;
+}
+
+.text-banner h1 {
+    font-size: 50px;
+}
+
+.text-banner p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
