@@ -32,8 +32,8 @@ nav {
     height: 100px;
     width: 100%;
     z-index: 1;
-    background-color: #fff;
-    border-bottom: 2px solid #000;
+    background-color: #000;
+    border-bottom: 3px solid #CCC;
 }
 
 nav:after {
@@ -75,12 +75,12 @@ nav:after {
 
 .nav-container ul li a {
     text-decoration: none;
-    color: #000;
+    color: #FFF;
     transition: .5s;
 }
 
 .nav-container ul li a:hover {
-    color: #F3BD23;
+    color: #CCC;
     font-size: 20px;
 }
 
@@ -140,6 +140,7 @@ nav:after {
     margin-top: 150px;
 }
 
+/* Personagens */
 
 .character-box {
     display: inline-block;
@@ -159,7 +160,7 @@ nav:after {
 
 .btn-characters {
     text-transform: uppercase;
-    background-color: #CCC;
+    background-color: #000;
     color: #FFF;
     border: 2px solid #FFF;
     border-radius: 5px;
@@ -171,8 +172,10 @@ nav:after {
 
 .btn-characters:hover {
     background-color: #FFF;
-    color: #CCC;
+    color: #000;
 }
+
+/* Temporadas */
 
 .some-seasons-left {
     float: left;
@@ -190,7 +193,7 @@ nav:after {
 }
 
 .space-season {
-    padding-bottom: 20em;
+    padding-bottom: 30em;
 }
 
 .some-seasons-right {
@@ -206,3 +209,51 @@ nav:after {
     float: left;
     width: 57%;   
 }
+
+.btnseason-container {
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: 100px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000;
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: 3px solid #CCC;
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+footer p {
+    color: #FFF;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+} 
+
+
+
+
+
+
+
+
